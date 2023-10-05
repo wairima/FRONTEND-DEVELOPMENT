@@ -6,7 +6,7 @@ body {
     
     header {
     background-color: #ca8080;
-    color: white;
+    color: rgb(21, 23, 24);
     padding: 10px 0;
     text-align: center;
     }
@@ -21,7 +21,7 @@ body {
     }
     
     nav ul li a {
-    color: white;
+    color: rgb(20, 19, 19);
     text-decoration: none;
     }
  
@@ -49,7 +49,7 @@ body {
     
     .product button {
     background-color: #e27979;
-    color: white;
+    color: rgb(17, 18, 19);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -61,7 +61,7 @@ body {
 
     footer {
         background-color: #eca1a1;
-        color: white;
+        color: rgb(16, 18, 19);
         text-align: center;
         padding: 10px 0;
         position: fixed;
@@ -69,7 +69,7 @@ body {
         width: 100%;
         }footer {
             background-color: #c27b7b;
-            color: white;
+            color: rgb(18, 20, 20);
             text-align: center;
             padding: 10px 0;
             position: fixed;
