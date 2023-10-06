@@ -1,0 +1,43 @@
+h1{
+    text-align:center;
+}
+
+nav ul {
+        list-style: none;
+        text-align: center;
+        text-size-adjust: 22ps;
+        }
+        
+nav ul li {
+        display: inline;
+        margin-right: 20px;
+       
+        }
+        
+nav ul li a {
+        color: rgb(103, 65, 192);
+        text-decoration: none;
+        }
+
+footer {
+            background-color: #e289c0;
+            color: rgb(224, 39, 39);
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+
+header {
+        background-color: #e289c0;
+        color: rgb(21, 23, 24);
+        padding: 10px 0;
+        text-align: center;
+        }
+body{
+    background-color: bisque;
+}
+h2{
+    text-transform: capitalize;
+}
