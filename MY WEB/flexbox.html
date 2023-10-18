@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="image_gallery">
+        <img src="https://cdn.pixabay.com/photo/2023/10/13/23/14/firewood-8313630_1280.jpg" onclick="showImage('https://cdn.pixabay.com/photo/2023/10/13/23/14/firewood-8313630_1280.jpg')"> 
+        <img src="https://picsum.photos/201" onclick="showImage('https://picsum.photos/201')"> 
+        <img src="https://cdn.pixabay.com/photo/2023/09/14/19/46/elephant-8253639_1280.jpg" onclick="showImage('https://cdn.pixabay.com/photo/2023/09/14/19/46/elephant-8253639_1280.jpg')"> 
+        <img src="https://picsum.photos/203" onclick="showImage('https://picsum.photos/203')"> 
+        <img src="https://picsum.photos/204" onclick="showImage('https://picsum.photos/204')"> 
+        <img src="https://cdn.pixabay.com/photo/2023/10/04/21/46/mushroom-8294526_640.jpg" onclick="showImage('https://cdn.pixabay.com/photo/2023/10/04/21/46/mushroom-8294526_640.jpg')"> 
+    </div>
+
+    <div id="expanded_img" class="single_image_display">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <img class="image_content" id="image">
+    </div>
+
+</body>
+</html>
