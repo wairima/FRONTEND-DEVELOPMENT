@@ -15,9 +15,6 @@ header {
     text-transform: capitalize;
     font-weight: bold;
 }
-h1{
-    font-weight: bold;
-}
 
 nav ul {
     list-style-type: none;
