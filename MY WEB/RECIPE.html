@@ -10,15 +10,41 @@
 
 <header>
     <h1>Cook Book</h1>
-    <nav>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
+        <nav class="nav" role="navigation">
+      
+                <ul>
+                    <li><a href="#" aria-label="Home">Home</a></li>
+                    <li><a href="#" aria-label="Products">Products</a></li>
+                    <li class="dropdown">
+                        <a href="#" aria-label="About Us">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="#">Our Story</a>
+                            <a href="#">Our Team</a>
+                        </div>
+                    </li>
+                    <li><a href="#" aria-label="Contact Us">Contact Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" aria-label="Recipes">Recipes</a>
+                        <div class="dropdown-content">
+                            <a href="#">All Recipes</a>
+                            <a href="#">Main Dishes</a>
+                            <a href="#">Desserts</a>
+                        </div>
+                    </li>
+                    <li><a href="#" aria-label="Blog">Blog</a></li>
+                    <li><a href="#" aria-label="Specials">Specials</a></li>
+                </ul>
+            </nav>
 </header>
+
+<section class="newsletter">
+    <h2>Subscribe to Our Recipes</h2>
+    <form action="#" method="post">
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
 
 <main>
     <article class="product">
@@ -101,6 +127,38 @@ Chili powder added to the flour and bread crumbs gives additional flavor and att
 <footer>
     <p>&copy; 2023 Cook Book. All rights reserved.</p>
 </footer>
+<div id="login-popup" class="overlay">
+    <div class="popup">
+        <h2>Login</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+            <img src="user.jpg" alt="User Image"> <!-- Update with a proper image path -->
+            <form id="login-form" action="#" method="post">
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript for the login functionality
+    document.getElementById('login-btn').addEventListener('click', function () {
+        document.getElementById('login-popup').style.display = 'block';
+    });
+
+    document.querySelector('.close').addEventListener('click', function () {
+        document.getElementById('login-popup').style.display = 'none';
+    });
+
+    document.getElementById('login-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        let email = document.querySelector('input[name="email"]').value;
+        alert(`User logged in with email: ${email}`);
+        document.getElementById('login-popup').style.display = 'none';
+    });
+</script>
 
 </body>
+
 </html>
