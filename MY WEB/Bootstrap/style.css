@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/*Login*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.facebook {
+    font-weight: bold;
+    font-size: 3.5em;
+    font-family: "Poppins", sans-serif;
+    color: #1877f2;
+}
+
+
+.text-description {
+    font-weight: normal;
+    font-size: 1.4em;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-gray {
+    background-color: #f0f2f5;
+}
+
+.btn-primary {
+    background-color: #1877f2 !important;
+}
+
+.btn-success {
+    background-color: #42b72a !important;
+}
+
+input::placeholder {
+    color: rgb(190, 186, 186) !important;
+    font-size: 0.8em;
+
+}
+
+.btn-h-primary:hover {
+    background-color: #096ae8 !important;
+}
+
+.btn-h-success:hover {
+    background-color: #309f1a !important;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form input {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+.login-form ::placeholder {
+    color: #777;
+    font-size: 1.063rem;
+}
+
+.login-form .btn {
+    background-color: #1877f2;
+    padding: 15px 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.login-form .btn:hover {
+    background-color: #0d65d9;
+}
+
+.login-form .forgot {
+    color: #1877f2;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.login-form .forgot:hover {
+    text-decoration: underline;
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button a {
+    padding: 15px 20px;
+    background: #42b72a;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.063rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.button a:hover {
+    background: #3ba626;
+}
+
+/*Footer*/
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.875rem;
+    color: #777;
+}
+
+.footer p a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    text-decoration: underline;
+}
+
+/*Responsive*/
+
+@media (max-width: 900px) {
+    .container {
+        margin: 50px 30px;
+    }
+}
+
+@media (max-width: 460px) {
+    .container {
+        margin: 50px 15px;
+    }
+
+    .facebook {
+        font-size: 3.5rem;
+    }
+
+    .text-description {
+        font-size: 1.5rem;
+    }
+}
