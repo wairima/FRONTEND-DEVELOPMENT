@@ -1,0 +1,55 @@
+/* Remove default margins and padding */
+body, html {
+ margin: 0;
+ padding: 0;
+}
+
+/* Set background color for the navbar */
+.navbar {
+ background-color: #ffffff;
+}
+
+/* Change the color of the navbar brand text */
+.navbar-brand {
+ color: #ff0000;
+}
+
+/* Change the color of the active navbar link */
+.navbar .active > a {
+ color: #ff0000;
+}
+
+/* Change the color of the navbar links */
+.navbar-nav .nav-link {
+ color: #333333;
+}
+
+/* Add some margin to the right side of the navbar */
+.navbar-nav {
+ margin-right: 20px;
+}
+
+/* Style the search form */
+.navbar .form-inline {
+ padding: 0;
+}
+
+.navbar .form-control {
+ height: 30px;
+ padding: 0 8px;
+ font-size: 14px;
+ color: #333333;
+}
+
+.navbar .btn {
+ padding: 4px 10px;
+ font-size: 14px;
+ color: #333333;
+ background-color: #ffffff;
+ border: 1px solid #cccccc;
+}
+
+.navbar .btn:hover {
+ color: #ff0000;
+ border-color: #ff0000;
+}
