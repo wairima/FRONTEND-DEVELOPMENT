@@ -110,3 +110,33 @@ h6 {
 .margin-top{
     margin-top: 90%;
 }
+.banner-section{
+    background-image: url(../images/banner-bg.png);
+    background-repeat:no-rerpeat ;
+    height: 900px;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #666666;
+    height:850px ;
+}   
+.content{
+    margin-top: 70px;
+    margin-left: 80px;
+    height: 300px;
+}
+.slide-btn{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.slide-btn span{
+    margin-left: 1000px;
+    background-color: black;
+    width: 30px;
+}
